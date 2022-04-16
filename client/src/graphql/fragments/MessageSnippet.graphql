@@ -1,0 +1,7 @@
+fragment MessageSnippet on Message {
+	_id
+	text
+	createdBy
+	updatedAt
+	createdAt
+}
