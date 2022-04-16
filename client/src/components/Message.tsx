@@ -8,7 +8,7 @@ interface MessageProps {
 
 export const Message: React.FC<MessageProps> = ({ message, username }) => {
 	const { text, createdBy } = message;
-	//
+
 	return (
 		<div
 			style={{
